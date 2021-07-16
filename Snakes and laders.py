@@ -3,6 +3,7 @@ from random import randint
 p=dict()    # we use a dictionary to store the players names and their positions in key-value pairs. This method also helps in easy allocation of exactly one chance to each player in one round
 # the initial and final positions of snakes and ladders are stored as a key value pairs in a dictionary
 # for example "2:38" a ladder starts at 2(initial) and takes you to 38(final)
+# these values are taken from the jpeg which is provided in this repo
 perks={2:38,7:14,8:31,15:26,21:42,28:84,36:44,51:67,71:91,78:98,87:94,99:80,95:75,74:53,64:60,62:19,49:11,46:25,16:6}
 win=None
 
